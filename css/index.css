@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  /*height:1rem;*/
+  /*background:red;*/
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.goback {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background:green;*/
+}
+
+header > h3 {
+  width: 60%;
+  line-height: 0.8rem;
+  font-weight: 700;
+  font-size: 0.38rem;
+}
+
+.dataTime {
+  width: 20%;
+  line-height: 0.8rem;
+  font-size: 0.24rem;
+}
+
+/*标题结束*/
+section {
+  width: 100%;
+  /*height: 6rem;*/
+  padding-bottom: 0.2rem;
+  padding-top: 1rem;
+  /*background:red;*/
+}
+
+.GroupUnit {
+  width: 100%;
+  height: 100%;
+  background: #f9fbff;
+  border-radius: 5%;
+  box-shadow: 0 0 0.2rem #e7f4f7;
+  position: relative;
+  padding-top: 0.6rem;
+}
+
+.thirdSection {
+  width: 95%;
+  height: 0.8rem;
+  border-radius: 1.12rem;
+  background: #cbcbd3;
+  position: absolute;
+  top: -0.5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+}
+
+.thirdSection > p {
+  /*display: inline-block;*/
+  font-size: 0.3rem;
+  color: #fff;
+  text-align: center;
+  width: 34%;
+  line-height: 0.8rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.thirdSection > .main-left-select-active {
+  background: linear-gradient(to right, #85c8cc 35%, #7ebcd2 10%, #77b0d9 10%, #6ea0e2 10%, #6693ea 35%);
+  border-radius: 2.08rem;
+  color: #fff;
+}
+
+.ranking {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.list {
+  width: 25%;
+  /*background:red;*/
+}
+
+.list > dt, .list2 > dt, .list3 > dt {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  /*background:red;*/
+}
+
+.list > dt > p, .list2 > dt > p, .list3 > dt > p {
+  width: 50%;
+  height: 0.5rem;
+  /*background:red;*/
+}
+
+.list > dt > p:first-child, .list3 > dt > p:first-child {
+  width: 40%;
+  height: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 0.1rem;
+  /*background:blue;*/
+}
+
+.list2 > dt > p:first-child {
+  width: 29%;
+  height: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 0.1rem;
+  /*background:blue;*/
+}
+
+.list2 > dt > p:first-child > i {
+  display: block;
+  width: 0.3rem;
+  height: 0.1rem;
+  background: linear-gradient(to right, #7ebcd2 25%, #7faced 75%);
+  border-radius: 1.2rem;
+}
+
+.list > dt > p:first-child > i {
+  display: block;
+  width: 0.3rem;
+  height: 0.1rem;
+  background: #d97a9e;
+  border-radius: 1.2rem;
+}
+
+.list3 > dt > p:first-child > i {
+  display: block;
+  width: 0.3rem;
+  height: 0.1rem;
+  background: linear-gradient(to right, #df9eca 50%, #a688f2 50%);
+  border-radius: 1.2rem;
+}
+
+.list > dt > p:last-child, .list2 > dt > p:last-child, .list3 > dt > p:last-child {
+  font-size: 0.32rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.list2 {
+  width: 47%;
+  /*background:red;*/
+}
+
+.list > dd {
+  height: 25%;
+  text-align: center;
+  font-size: 0.32rem;
+}
+
+.list2 > dd, .list3 > dd {
+  height: 25%;
+  text-align: center;
+  font-size: 0.32rem;
+}
+
+.list3 > dd {
+  width: 80%;
+  height: 25%;
+  text-align: right;
+  font-size: 0.32rem;
+}
+
+.list2 > .center, .list3 > .center {
+  margin-top: 0.1rem;
+}
+
+.list3 {
+  width: 27%;
+
+}
+
+
+/*中间部分结束*/
+.article {
+  width: 100%;
+  /*height:6.2rem;*/
+  flex: 1;
+
+}
+
+.process {
+  width: 100%;
+  /*height: 20%;*/
+  border-bottom: 0.01rem solid #f5f5f6;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.processFirst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height:1rem;
+  margin: auto;
+  padding-left: 0.2rem;
+
+
+}
+
+.Img {
+  width: 8%;
+  height: 70%;
+  /*background:url('../images/goverment.png') no-repeat ;*/
+  /*background-size: 100% 100%;*/
+}
+
+.processText {
+  margin-left: 0.2rem;
+  width: 85%;
+  font-size: 0.32rem;
+}
+
+.processLogo {
+  width: 6%;
+  height: 70%;
+
+
+}
+
+.arrow {
+  font-size: 0.64rem;;
+}
+/*样式修改*/
+.processLogo > .show-area-title-show{
+  display: block;
+  width:100%;
+  height:100%;
+  background: url("../images/xia.png") no-repeat;
+  background-position: 50% 50%;
+}
+.processLogo > .show-area-title-hide{
+   display: block;
+   width:100%;
+   height:100%;
+   background: url("../images/xia.png") no-repeat;
+   background-position: 50% 50%;
+  transform: rotate(-90deg);
+}
+.show-area-main{
+    display:none;
+}
+
